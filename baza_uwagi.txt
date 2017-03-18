@@ -1,0 +1,7 @@
+Narazie bazkę zaimportujcie ze skryptu 170318_bazaGambit.sql
+
+jak cos zmieniacie w bazie (dodawanie użytkowników testowych niekoniecznie) to generujemy skrypt:
+
+PPM na bazę -> Tasks -> Generate Scripts...  follow the wizard
+chcemy też wyeksportować dane wiec w "Set Scripting Options":
+Advanced -> Types of data to script -> (mamy do wyboru "Schema Only"/"Data Only"/"Schema and Data") -> "Schema and Data"
