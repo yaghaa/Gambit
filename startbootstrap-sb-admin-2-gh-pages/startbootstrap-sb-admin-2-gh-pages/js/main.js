@@ -1,3 +1,5 @@
+
+
 jQuery(document).ready(function($){
 	var timelineBlocks = $('.cd-timeline-block'),
 		offset = 0.8;
@@ -24,6 +26,8 @@ jQuery(document).ready(function($){
 		});
 	}
 });
+
+
 
     function htmlbodyHeightUpdate(){
 		var height3 = $( window ).height()
