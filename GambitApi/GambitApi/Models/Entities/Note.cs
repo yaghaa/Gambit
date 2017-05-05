@@ -10,6 +10,10 @@ namespace GambitApi.Models.Entities
 
         public DateTime Date { get; set; }
 
+        public int NotatkaId { get; set; }
+
+        public int WydarzenieId { get; set; }
+
         public int Id { get; set; }
     }
 }

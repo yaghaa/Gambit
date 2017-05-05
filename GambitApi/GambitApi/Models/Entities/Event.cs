@@ -13,5 +13,7 @@ namespace GambitApi.Models.Entities
         public string Kind { get; set; }
 
         public int WydarzenieId { get; set; }
+
+        public string Id { get; set; }
     }
 }

@@ -107,11 +107,15 @@
   <ItemGroup>
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\EventsController.cs" />
     <Compile Include="Controllers\FriendsController.cs" />
     <Compile Include="Domains\AddressRepository.cs" />
     <Compile Include="Domains\EmailRepository.cs" />
+    <Compile Include="Domains\EventRepository.cs" />
     <Compile Include="Domains\FriendRepository.cs" />
     <Compile Include="Domains\Interfaces\IRepository.cs" />
+    <Compile Include="Domains\Interfaces\IRepositoryExtensions.cs" />
+    <Compile Include="Domains\NoteRepository.cs" />
     <Compile Include="Domains\PhoneRepository.cs" />
     <Compile Include="Domains\Validators\FriendValidator.cs" />
     <Compile Include="Domains\Validators\IValidator.cs" />

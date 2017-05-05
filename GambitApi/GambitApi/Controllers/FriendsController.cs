@@ -19,14 +19,16 @@ namespace GambitApi.Controllers
         private readonly IRepository<Phone, string> _phoneRepository; 
         private readonly IRepository<Email, string> _emailRepository; 
         private readonly IValidator<Friend> _friendValidator; 
+        private readonly IRepositoryExtensions<Friend> _friendRepositoryExtensions; 
 
-        public FriendsController(IRepository<Friend, int> friendRepository, IRepository<Address, int> addressRepository, IValidator<Friend> friendValidator, IRepository<Phone, string> phoneRepository, IRepository<Email, string> emailRepository)
+        public FriendsController(IRepository<Friend, int> friendRepository, IRepository<Address, int> addressRepository, IValidator<Friend> friendValidator, IRepository<Phone, string> phoneRepository, IRepository<Email, string> emailRepository, IRepositoryExtensions<Friend> friendRepositoryExtensions)
         {
             _friendRepository = friendRepository;
             _addressRepository = addressRepository;
             _friendValidator = friendValidator;
             _phoneRepository = phoneRepository;
             _emailRepository = emailRepository;
+            _friendRepositoryExtensions = friendRepositoryExtensions;
         }
 
         public Friend Get(int id)
@@ -44,6 +46,12 @@ namespace GambitApi.Controllers
             return _friendRepository.GetAll();
         }
 
+        public List<Friend> GetAllForUser(string id)
+        {
+            return _friendRepositoryExtensions.GetAllForUser(id);
+        }
+
+        [HttpDelete]
         public void Delete(int id)
         {
             if (id == int.MinValue)
@@ -77,17 +85,17 @@ namespace GambitApi.Controllers
 
             if (_friendValidator.Validate(friend))
             {
-                if (friend.Address != null &&_addressRepository.Get(friend.Address.AddressId) == null)
+                if (friend.Address != null && _addressRepository.Get(friend.Address.AddressId) == null)
                 {
                     _addressRepository.Add(friend.Address);
                 }
                 if (friend.Number != null && _phoneRepository.Get(friend.Number) == null)
                 {
-                    _phoneRepository.Add(new Phone{Numer = friend.Number});
+                    _phoneRepository.Add(new Phone { Numer = friend.Number });
                 }
                 if (friend.Email != null && _emailRepository.Get(friend.Email) == null)
                 {
-                    _emailRepository.Add(new Email{KontaktEmail = friend.Email});
+                    _emailRepository.Add(new Email { KontaktEmail = friend.Email });
                 }
                 _friendRepository.Add(friend);
             }

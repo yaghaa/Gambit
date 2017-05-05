@@ -16,7 +16,8 @@ namespace GambitApi.Domains
         {
             using (IDbConnection db = new SqlConnection(_connectionString))
             {
-                return db.Query<Address>("Select Top(1) * From Address where addressId = @id", new { id }).FirstOrDefault();
+                var a = db.Query<Address>("Select Top(1) * From Address where addressId = @id", new { id }).FirstOrDefault();
+                return a;
             }
         }
 
@@ -59,7 +60,10 @@ namespace GambitApi.Domains
 
         public void Delete(int id)
         {
-            throw new System.NotImplementedException();
+            using (IDbConnection db = new SqlConnection(_connectionString))
+            {
+                db.Query("delete from Address where addressId = @id", new { id });
+            }
         }
 
         public List<Address> GetAll()
