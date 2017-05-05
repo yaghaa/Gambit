@@ -37,7 +37,7 @@ namespace GambitApi.Domains
                                  ,@dataWydarzenia
                                  ,@godzina
                                  ,@rodzaj
-                                 ,@wydarzenieId)
+                                 ,@wydarzenieId
                                  ,@Id)", new
                 {
                     nazwa = model.Name,
@@ -55,16 +55,17 @@ namespace GambitApi.Domains
             using (IDbConnection db = new SqlConnection(_connectionString))
             {
                 db.Query(@"Update dbo.Wydarzenie set 
-                                 ([nazwa] = @nazwa
+                                 [nazwa] = @nazwa
                                  ,[dataWydarzenia] = @dataWydarzenia
                                  ,[godzina] = @godzina
-                                 ,[rodzaj] = @rodzaj) 
+                                 ,[rodzaj] = @rodzaj
                            Where [wydarzenieId] = @wydarzenieId", new
                 {
                     nazwa = model.Name,
                     dataWydarzenia = model.Date,
                     godzina = model.Hour,
-                    rodzaj = model.Kind
+                    rodzaj = model.Kind,
+                    wydarzenieId = model.WydarzenieId
                 });
             }
         }

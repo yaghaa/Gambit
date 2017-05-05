@@ -110,6 +110,7 @@
     <Compile Include="Controllers\EventsController.cs" />
     <Compile Include="Controllers\FriendsController.cs" />
     <Compile Include="Domains\AddressRepository.cs" />
+    <Compile Include="Domains\DetailRepository.cs" />
     <Compile Include="Domains\EmailRepository.cs" />
     <Compile Include="Domains\EventRepository.cs" />
     <Compile Include="Domains\FriendRepository.cs" />

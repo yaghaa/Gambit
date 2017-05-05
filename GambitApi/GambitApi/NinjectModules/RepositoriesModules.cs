@@ -16,6 +16,7 @@ namespace GambitApi.NinjectModules
             Bind<IRepositoryExtensions<Friend>>().To<FriendRepository>();
             Bind<IRepository<Phone, string>>().To<PhoneRepository>();
             Bind<IRepository<Email, string>>().To<EmailRepository>();
+            Bind<IRepository<Details, int>>().To<DetailRepository>();
         }
     }
 }
