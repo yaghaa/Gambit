@@ -162,3 +162,5 @@ D:\!Biblioteki\Documents\Github\Gambit\Gambit\Gambit\bin\Microsoft.Owin.Security
 D:\!Biblioteki\Documents\Github\Gambit\Gambit\Gambit\obj\Debug\Gambit.csprojResolveAssemblyReference.cache
 D:\!Biblioteki\Documents\Github\Gambit\Gambit\Gambit\obj\Debug\Gambit.dll
 D:\!Biblioteki\Documents\Github\Gambit\Gambit\Gambit\obj\Debug\Gambit.pdb
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\Gambit\Gambit\bin\RestSharp.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\Gambit\Gambit\bin\RestSharp.xml
