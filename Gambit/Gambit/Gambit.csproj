@@ -193,6 +193,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiClient\FriendsRestApiClient.cs" />
+    <Compile Include="ApiClient\IRestApiClient.cs" />
+    <Compile Include="ApiClient\EventsRestApiClient.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
@@ -205,6 +208,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ApiModels\Address.cs" />
+    <Compile Include="Models\ApiModels\Details.cs" />
+    <Compile Include="Models\ApiModels\Event.cs" />
+    <Compile Include="Models\ApiModels\Friend.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
