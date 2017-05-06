@@ -26,5 +26,11 @@ namespace Gambit.Controllers
 
             return View();
         }
+       
+        public ActionResult Calendar()
+        {
+            ViewBag.Message = "Calendar";
+            return View();
+        }
     }
 }

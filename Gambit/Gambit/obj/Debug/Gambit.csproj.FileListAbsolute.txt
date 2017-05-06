@@ -159,6 +159,6 @@ D:\!Biblioteki\Documents\Github\Gambit\Gambit\Gambit\bin\Microsoft.Owin.Security
 D:\!Biblioteki\Documents\Github\Gambit\Gambit\Gambit\bin\Microsoft.Owin.Security.Google.xml
 D:\!Biblioteki\Documents\Github\Gambit\Gambit\Gambit\bin\Microsoft.Owin.Security.Twitter.xml
 D:\!Biblioteki\Documents\Github\Gambit\Gambit\Gambit\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\!Biblioteki\Documents\Github\Gambit\Gambit\Gambit\obj\Debug\Gambit.csprojResolveAssemblyReference.cache
 D:\!Biblioteki\Documents\Github\Gambit\Gambit\Gambit\obj\Debug\Gambit.dll
 D:\!Biblioteki\Documents\Github\Gambit\Gambit\Gambit\obj\Debug\Gambit.pdb
+D:\!Biblioteki\Documents\Github\Gambit\Gambit\Gambit\obj\Debug\Gambit.csprojResolveAssemblyReference.cache
