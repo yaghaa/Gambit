@@ -1,0 +1,108 @@
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\csc.exe
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\csc.exe.config
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\csc.rsp
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\csi.exe
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\csi.rsp
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\System.AppContext.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\vbc.exe
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\vbc.exe.config
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\vbc.rsp
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\GambitApi.dll.config
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\GambitApi.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\GambitApi.pdb
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Newtonsoft.Json.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\System.Web.Http.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\System.Web.Http.WebHost.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Newtonsoft.Json.xml
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\System.Net.Http.Formatting.xml
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\System.Web.Http.xml
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\System.Web.Http.WebHost.xml
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\obj\Debug\GambitApi.csprojResolveAssemblyReference.cache
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\obj\Debug\GambitApi.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\obj\Debug\GambitApi.pdb
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Dapper.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Ninject.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Ninject.Web.Common.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Ninject.Web.WebApi.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Ninject.Web.WebApi.WebHost.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\WebActivatorEx.dll
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Dapper.xml
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Ninject.xml
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Ninject.Web.Common.xml
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Ninject.Web.WebApi.xml
+C:\Users\Agata\Documents\Visual Studio 2017\Projects\GambitApi\GambitApi\bin\Ninject.Web.WebApi.WebHost.xml
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\obj\Debug\GambitApi.csprojResolveAssemblyReference.cache
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\obj\Debug\GambitApi.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\obj\Debug\GambitApi.pdb
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\csc.exe
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\csc.exe.config
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\csc.rsp
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\csi.exe
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\csi.rsp
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\System.AppContext.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\System.Collections.Immutable.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\System.IO.FileSystem.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\vbc.exe
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\vbc.exe.config
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\vbc.rsp
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\VBCSCompiler.exe
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\roslyn\VBCSCompiler.exe.config
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\GambitApi.dll.config
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\GambitApi.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\GambitApi.pdb
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Dapper.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Microsoft.Web.Infrastructure.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Newtonsoft.Json.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Ninject.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Ninject.Web.Common.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Ninject.Web.WebApi.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Ninject.Web.WebApi.WebHost.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\System.Net.Http.Formatting.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\System.Web.Http.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\System.Web.Http.WebHost.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\WebActivatorEx.dll
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Dapper.xml
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Ninject.xml
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Ninject.Web.Common.xml
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Ninject.Web.WebApi.xml
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Ninject.Web.WebApi.WebHost.xml
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\Newtonsoft.Json.xml
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\System.Net.Http.Formatting.xml
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\System.Web.Http.xml
+C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\GambitApi\GambitApi\bin\System.Web.Http.WebHost.xml

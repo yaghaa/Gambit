@@ -2,7 +2,10 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <UseIISExpress>true</UseIISExpress>
+<<<<<<< HEAD
     <ProjectView>ShowAllFiles</ProjectView>
+=======
+>>>>>>> origin/master
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
