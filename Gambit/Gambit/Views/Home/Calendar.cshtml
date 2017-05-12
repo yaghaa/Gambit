@@ -1,0 +1,138 @@
+﻿@{
+    ViewBag.Title = "Calendar";
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='~/Content/fullcalendar.min.css' rel='stylesheet' />
+    <link href='~/Content/style.css' rel='stylesheet' />
+    <link href='~/Content/bootstrap-responsive.css' rel='stylesheet' />
+<link href='~/Content/fullcalendar.print.min.css' rel='stylesheet' media='print' />
+<script src='~/Scripts/moment.min.js'></script>
+<script src='~/Scripts/fullcalendar.min.js'></script>
+<script src='~/Scripts/pl.js'></script>
+    <script src='~/Scripts/bootstrap-modal.js'></script>
+    <script src='~/Scripts/bootstrap2.js'></script>
+<script src='~/Scripts/calendar.js'></script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+  
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+   
+	  <link  href="../css/style.css" rel="stylesheet"> <!-- Resource style -->
+	  <script src="../js/modernizr.js"></script> <!-- Modernizr -->
+
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Dashboard</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+           
+            <div class="row">
+                <div class="col-lg-8">
+                    
+                 
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                             
+                            <i class="fa fa-clock-o fa-fw"></i> Kalendarz
+                            <form action="add-event.html">
+                            <button  type="submit" class="btn btn-default">Dodaj</button>
+                            </form>
+                        </div>
+                      
+                        
+                       
+	                          	
+                              <div id='calendar'></div>
+                          
+                       
+                    </div>
+                   
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-8 -->
+             
+                        <!-- /.panel-body -->
+            </div>
+            <!-- /.row -->
+                   
+          
+            
+                  
+            
+                   
+            
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <div id="popupEventForm" class="modalhide">
+        <div class="modal-header"><h3>Dodaj wydarzenie</h3></div>
+        <div class="modal-body">
+            <form id="EventForm" class="well">
+                <input type="hidden" id="eventID">
+                <label>Tytuł</label>
+                <input type="text" id="eventTitle" placeholder="tytuł..."><br />
+                <label>Data</label>
+                <input type="text" id="eventDate"><br />
+                <label>Godzina</label>
+                <input type="text" id="eventTime"><br />
+                <label>Czas trwania (minuty)</label>
+                <input type="text" id="eventDuration" placeholder="15"><br />
+            </form>
+        </div>
+    </div>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="../vendor/raphael/raphael.min.js"></script>
+    <script src="../vendor/morrisjs/morris.min.js"></script>
+    <script src="../data/morris-data.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>

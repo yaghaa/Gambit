@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="57519dce5aef47da9e12bdee17d98bfc" Name="Diagram1">
+        <EntityTypeShape EntityType="GambitModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GambitModel.Address" Width="1.5" PointX="6" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GambitModel.AspNetRoles" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GambitModel.AspNetUserClaims" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GambitModel.AspNetUserLogins" Width="1.5" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GambitModel.AspNetUsers" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="GambitModel.Email" Width="1.5" PointX="6" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GambitModel.Info" Width="1.5" PointX="6" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="GambitModel.Kontakt" Width="1.5" PointX="8.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GambitModel.Notatka" Width="1.5" PointX="7.5" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GambitModel.Telefon" Width="1.5" PointX="6" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GambitModel.Wydarzenie" Width="1.5" PointX="5.25" PointY="18.25" IsExpanded="true" />
+        <AssociationConnector Association="GambitModel.FK_KONTAKT_ADRES_KON_ADRES" ManuallyRouted="false" />
+        <AssociationConnector Association="GambitModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="GambitModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="GambitModel.FK_NOTATKA_NOTATKI_U_ASPNETUS" ManuallyRouted="false" />
+        <AssociationConnector Association="GambitModel.FK_WYDARZEN_WYDARZENI_ASPNETUS" ManuallyRouted="false" />
+        <AssociationConnector Association="GambitModel.FK_KONTAKT_REFERENCE_EMAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="GambitModel.FK_KONTAKT_INFORMACJ_INFO" ManuallyRouted="false" />
+        <AssociationConnector Association="GambitModel.FK_KONTAKT_REFERENCE_TELEFON" ManuallyRouted="false" />
+        <AssociationConnector Association="GambitModel.FK_NOTATKA_NOTATKI_U_wydarzenia" ManuallyRouted="false" />
+        <AssociationConnector Association="GambitModel.AspNetUserRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="GambitModel.KontaktyUzytkownikow" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

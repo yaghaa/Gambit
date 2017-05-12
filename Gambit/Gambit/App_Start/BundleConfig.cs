@@ -26,7 +26,9 @@ namespace Gambit
                          "~/Scripts/gcal",
                          "~/Scripts/fullcalendar",
                          "~/Scripts/calendar",
-                         "~/Scripts/main"
+                         "~/Scripts/main",
+                         "~/Scripts/bootstrap-modal",
+                         "~/Scripts/bootstrap2"
                          ));
 
 
@@ -38,7 +40,8 @@ namespace Gambit
                       "~/Content/css/bootstrap.css",
                       "~/Content/css/fullcalendar.css",
                       "~/Content/css/sb-admin-2.css",
-                      "~/Content/css/timeline.css"));
+                      "~/Content/css/timeline.css",
+                      "~/Content/bootstrap-responsive.css"));
         }
     }
 }
