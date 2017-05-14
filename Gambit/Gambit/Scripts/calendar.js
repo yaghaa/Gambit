@@ -4,11 +4,14 @@ $(document).ready(function() {
 			header: {
 				left: 'prev,next today',
 				center: 'title',
-				right: 'month,basicWeek,basicDay'
+				right: 'month,agendaWeek,agendaDay'
 			},
-			defaultDate: '2017-04-12',
+			defaultView : 'month',
 			navLinks: true, // can click day/week names to navigate views
-			editable: true,
+            editable: true,
+            allDaySlot: false,
+            selectable: true,
+            slotMinutes:15,
 			eventLimit: true, // allow "more" link when too many events
 			events: '/Home/GetCalendarEvents/',
 		    eventDrop: function (event, dayDelta, minuteDelta, allDay, revertFunc){
@@ -32,9 +35,11 @@ $(document).ready(function() {
 		    dayClick: function (date, allDay, jsEvent, view)
 		    {
 		        
-		        $('#eventTitle').val("");
-		        $('#eventDate').val($.fullCalendar.formatDate(date, 'dd/MM/yyyy'));
-		        $('#eventTime').val($.fullCalendar.formatDate(date, 'HH:mm'));
+                $('#eventTitle').val("");
+		        var moment = $('#calendar').fullCalendar('getDate');
+                $('#eventDate').val(moment.format());
+
+		        $('#eventTime').val($.fullCalendar.getDate);
 		        ShowEventPopup(date);
 
 		    },

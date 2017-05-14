@@ -16,7 +16,8 @@
 <script src='~/Scripts/pl.js'></script>
     <script src='~/Scripts/bootstrap-modal.js'></script>
     <script src='~/Scripts/bootstrap2.js'></script>
-<script src='~/Scripts/calendar.js'></script>
+    <script src='~/Scripts/calendar.js'></script>
+    <script src="../js/modernizr.js" ></script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,14 +36,43 @@
     <!-- Custom CSS -->
     <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
 
-  
 
     <!-- Custom Fonts -->
     <link href="../vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
 
-   
-	  <link  href="../css/style.css" rel="stylesheet"> <!-- Resource style -->
-	  <script src="../js/modernizr.js"></script> <!-- Modernizr -->
+
+    <link href="../css/style.css" rel="stylesheet"> <!-- Resource style -->
+    <script>
+        $(document).ready(function() {
+            $('#btnPopupSave').click(function() {
+                alert("fired");
+                var dataRow = {
+                    'Title': $('#eventTitle').val(),
+                    'NewEventDate': $('#eventDate').val(),
+                    'NewEventTime': $('#eventTime').val(),
+                    'NewEventDuration': $('#eventDuration').val()
+                }
+                ClearPopupFormValues();
+                $.ajax({
+                    type: 'POST',
+                    url: "/Home/SaveEvent",
+                    data: dataRow,
+                    success: function(response) {
+                        if (response == 'True') {
+                            
+                            $('#calendar').fullCalendar('refetchEvents');
+                            alert('New event saved!');
+                        } else {
+                            
+                            alert('Error, could not save event!');
+                        }
+                    }
+                    
+                });
+            });
+        });
+        
+    </script> <!-- Modernizr -->
 
 
 </head>
@@ -118,6 +148,11 @@
                 <input type="text" id="eventDuration" placeholder="15"><br />
             </form>
         </div>
+        <div class="modal-footer">
+            <button type="button" id="btnPopupCancel">Cancel</button>
+            <button type="button" id="btnPopupSave" >Save event</button>
+        </div>
+        
     </div>
     <!-- Bootstrap Core JavaScript -->
     <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>

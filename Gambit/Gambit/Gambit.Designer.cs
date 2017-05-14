@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'F:\Users\Anna\Documents\GitHub\Gambit\Gambit\Gambit\Gambit.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\aga\PWR\semestr 6\Zaawansowane technologie webowe\Gambit\Gambit\Gambit\Gambit.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

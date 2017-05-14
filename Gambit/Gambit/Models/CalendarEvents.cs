@@ -78,8 +78,12 @@ namespace Gambit.Models
                 GambitEntities ent = new GambitEntities();
                 Wydarzenie rec = new Wydarzenie();
                 rec.nazwa = Title;
-                rec.dataGodzinaWydarzenia = DateTime.ParseExact(NewEventDate + " " + NewEventTime, "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture);
+                rec.dataGodzinaWydarzenia = new DateTime(2017,05,12);
                 rec.dlugoscWydarzenia = Int32.Parse(NewEventDuration);
+                rec.Id = "2";
+                rec.Notatka = new List<Notatka>();
+                rec.wydarzenieId = 5;
+
                 ent.Wydarzenie.Add(rec);
                 ent.SaveChanges();
             }
